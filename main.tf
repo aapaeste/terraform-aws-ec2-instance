@@ -1,9 +1,9 @@
-provider "aws" {
-  region = var.aws_region
-
-  # Live modules pin exact provider version; generic modules let consumers pin the version.
-  version = "= 2.40.0"
-}
+#provider "aws" {
+#  region = var.aws_region
+#
+#  # Live modules pin exact provider version; generic modules let consumers pin the version.
+#  version = "= 2.40.0"
+#}
 
 terraform {
   # The configuration for this backend will be filled in by Terragrunt
